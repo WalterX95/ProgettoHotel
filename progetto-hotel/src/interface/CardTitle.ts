@@ -1,0 +1,1 @@
+export type CardTitle = { title: string, subTitle: string }

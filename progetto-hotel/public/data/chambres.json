@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "nameChambre": "Camera Base",
+        "NSeats": 4,
+        "NToilette": 1,
+        "Services": "Servizi base con bagno classico con asciugaman, saponi, soggiorno e TV",
+        "ImageChambre": "./img/1.jpg",
+        "PriceChambre": 30.67
+    },
+    {
+        "id":1,
+        "nameChambre": "Camera con terrazza",
+        "NSeats": 2,
+        "NToilette": 1,
+        "Services": "Camera per coppia, disponibile piccola sauna in bagno ed altro",
+        "ImageChambre": "./img/2.jpg",
+        "PriceChambre": 45.66
+    },
+    {
+        "id":3,
+        "nameChambre": "Camera con vista mare",
+        "NSeats": 6,
+        "NToilette": 3,
+        "Services": "Camera enorme con vista sul mare, perfetto per 6 persone, TV saltelittare ed altro ancora",
+        "ImageChambre": "./img/3.jpg",
+        "PriceChambre": 80.66
+    }
+    ,
+    {
+        "id":4,
+        "nameChambre": "Camera Semplice ECO",
+        "NSeats": 1,
+        "NToilette": 1,
+        "Services": "Camera Semplice efficiente ma molto  piccola, disponibile solo per una persona",
+        "ImageChambre": "./img/4.jpg",
+        "PriceChambre": 20.66
+    }
+]

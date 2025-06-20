@@ -1,0 +1,32 @@
+[
+    {
+        "id":0,
+        "link":"/home",
+        "label":"Home"
+    },
+    {
+        "id":1,
+        "link":"/servizi",
+        "label":"Servizi"
+    },
+    {
+        "id":2,
+        "link":"/prenota",
+        "label":"Prenota"
+    },
+    {
+        "id":3,
+        "link":"/mission",
+        "label":"La Nostra Mission"
+    },
+    {
+        "id":4,
+        "link":"/contatti",
+        "label":"Contatti"
+    },
+    {
+        "id":5,
+        "link":"/contatti",
+        "label":"Contatti"
+    }
+]
