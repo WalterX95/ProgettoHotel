@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import type { MenuLink } from "../interface/MenuLink";
+import BookingLogin from "./BookingLogin";
 
 
 const HeaderComponent: React.FC = () => {
    const [menu,setMenu] = useState<MenuLink[]>([])
    const [error, setError] = useState<string | null>(null);
+   const [isModalOpen, setIsModalOpen] = useState(false);
 
    useEffect(() => {
       const fetchMenuData = async() => {
@@ -47,7 +49,8 @@ return(
         </ul>
       </nav>
       <div className="hidden lg:flex items-center space-x-4">
-        <a href="#" className="bg-green-500 hover:bg-blue-500 text-white font-semibold px-4 py-2 rounded inline-block">Login</a>
+        <button onClick={() => setIsModalOpen(true)}
+        className="bg-green-500 hover:bg-blue-500 text-white font-semibold px-4 py-2 rounded inline-block">Login</button>
       </div>
     </div>
   </header>
@@ -64,6 +67,8 @@ return(
     <a href="#" className="bg-green-500 hover:bg-blue-500 text-white font-semibold px-4 py-2 rounded flex items-center justify-center min-w-[110px]">Login</a>
   </div>
 </nav>
+
+ <BookingLogin isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 </>
     )
 }
